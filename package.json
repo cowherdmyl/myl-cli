@@ -1,0 +1,17 @@
+{
+  "name": "myl-cli",
+  "version": "1.0.0",
+  "description": "myl-cli",
+  "main": "index.js",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "inquirer": "^7.0.0",
+    "shelljs": "^0.8.5"
+  }
+}
