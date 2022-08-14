@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "myl-cli",
   "main": "index.js",
-  "bin": "cli.js",
+  "bin": {
+    "myl-cli": "./dist/cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
